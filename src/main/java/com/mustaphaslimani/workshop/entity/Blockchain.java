@@ -6,12 +6,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Data
-public class BlockChain {
+public class Blockchain {
     private List<Block> chain;
     private TransactionPool transactionPool;
     private int difficulty;
     
-    public BlockChain(int difficulty){
+    public Blockchain(int difficulty){
         // chain is a list of blocks
         this.chain = new ArrayList<>();
         // transactionPool is a list of transactions

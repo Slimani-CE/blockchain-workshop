@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class Transaction {
-private String sender;
+    private String sender;
     private String recipient;
     private int amount;
 
